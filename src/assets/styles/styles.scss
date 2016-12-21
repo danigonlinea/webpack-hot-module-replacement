@@ -1,0 +1,17 @@
+$font-stack: sans-serif;
+$primary-color: red;
+$background-color: white;
+
+html, body {
+  height: 100%;
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+  padding: 3em;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-size: 18px ;
+}
