@@ -3,7 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    devtool: 'eval',
+    devtool: 'source-map',
   entry: {
     app:   ['webpack/hot/dev-server', 'webpack-dev-server/client?http://localhost:9000', './src/app/app.js']
   },
@@ -16,9 +16,9 @@ module.exports = {
     stats: { colors: true}
   },
   output: {
-    path: 'output/',
+    path: 'src/output/',
     filename: 'app.js',
-    publicPath: 'http://localhost:9000/'
+    publicPath: 'http://localhost:9000/output/'
   },
   module: {
     loaders: [

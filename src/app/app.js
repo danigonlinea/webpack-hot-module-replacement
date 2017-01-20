@@ -5,9 +5,8 @@ import webpackLogo from '../assets/images/webpackLogo.png';
 let messageWelcome = 'Live-Reload and Hot Replacement Module Example';
 
 const basicTemplate = `
-
-    <img src="${webpackLogo}" alt="Webpack Logo">
-    <h1> ${messageWelcome}</h1>
+    <img src="${webpackLogo}" alt="Webpack LogoSSsss">
+    <h1> ${messageWelcome} </h1>
   `;
 
 document.body.innerHTML = basicTemplate;
